@@ -86,7 +86,6 @@ gem "rubyzip", "~> 1.2", ">= 1.2.2"
 gem "s3_direct_upload", "~> 0.1"
 gem "sail", "~> 1.5"
 gem "sass-rails", "~> 5.0"
-gem "scout_apm", "~> 2.4"
 gem "sdoc", "~> 1.0", group: :doc
 gem "serviceworker-rails", "~> 0.5"
 gem "share_meow_client", "~> 0.1"
@@ -107,6 +106,9 @@ gem "webpush", "~> 0.3"
 # MONITORING TOOLS
 gem 'newrelic_rpm'
 gem 'skylight'
+gem "scout_apm", "~> 2.4"
+## BUILD MONITORING YOURSELF
+gem 'prometheus_exporter'
 
 group :development do
   gem "better_errors", "~> 2.5"
